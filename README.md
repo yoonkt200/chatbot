@@ -1,6 +1,6 @@
-## Team Scoop AI Chatbot Project 'AlmhaGo'
+## Team Scoop AI Chatbot Toy Project 'AlmhaGo'
 - Made by Team Scoop with Bigpie Project
-- This Project is price prediction for '중고나라' user.
+- This Toy Project is price prediction for '중고나라' user.
 - User input the text, Status of used mobile phone. Then, AI Chatbot predict price the mobile phone.
 - The dataset is Korea's public open dataset and Price predict algorithm is Random Forest regressor.
 - As of August 2017, we only estimate prices for the latest mobile phones.
@@ -16,7 +16,7 @@
 
 ## Using
 - Development : AWS EC2 instance
-- Language : Server side
+- Language : Python, Django Framework
 
 ## Getting Started  ( for developers )
 - now not available, it was on AWS instance.
