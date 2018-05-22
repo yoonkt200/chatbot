@@ -1,32 +1,32 @@
-# Project AlmhaGo
+## Team Scoop AI Chatbot Project 'AlmhaGo'
+- Made by Team Scoop with Bigpie Project
+- This Project is price prediction for '중고나라' user.
+- User input the text, Status of used mobile phone. Then, AI Chatbot predict price the mobile phone.
+- The dataset is Korea's public open dataset and Price predict algorithm is Random Forest regressor.
+- As of August 2017, we only estimate prices for the latest mobile phones.
 
-![](https://raw.github.com/yoonkt200/chatbot/master/almhago.png)
-
-------------------------------------------------------------
-
-- Team Scoop이 만든 중고 핸드폰 적정가격 예측 서비스입니다.
-
-- 얼마고는 팀 스쿱의 프로젝트 챗봇으로, 빅데이터 기반 머신 러닝을 활용한 중고폰 적정가격을 제안해주는 인공지능입니다.
-
-- 얼마고는 중고거래 활성화 및 공정거래 문화 확립에 기여하고자 노력합니다.
-
-- 머신 러닝 모델에 기반하여, 실시간으로 사용자에 입력에 맞는 적정가를 제시합니다.
-
-- 최신 휴대폰 150여개의 기종에 대해 가격을 제시합니다.
-
-- 판매 게시글을 모의로 올려봄으로써, 게시글에 기반한 상품의 상태와 가격을 예측할 수 있습니다.
-
-> 모의 판매 예시 
+> Mock sales example(in Korean)
 >> A등급 예시 :: 설현의 루나워치 싸게팝니다~~~~~~ 말그대로 새것풀박스 이며 정상해지되어 바로 사용가능합니다ㅏ 말그대로 새것풀박스 이며 정상해지되어 바로 사용가능합니다ㅏ
 
 >> B등급 예시 :: 노트3네오 액정 약간 파손 직접거래 모든기능 정상 입니다
 
 >> C등급 예시 :: 노트2 화이트 32기가 판매 직접거래 예비 공기계 폰이라 상태는 안좋아요 좌측 하단 깨졌지만 모든 기능 작동 합니다 성남, 강남 직거래 합니다 제 게시글 갤럭시 a8 과 일괄구매시 에눌해드려용~공1공 ㅡ 2 0 일 육 ㅡ 5 8 오 팔4만원
 
-- 프로젝트에 대한 더 자세한 내용은, pdf로 첨부하였습니다.
+- More Detail about This Project, See 'scoop_almhago_project.pdf'
 
-------------------------------------------------------------
+## Using
+- Development : AWS EC2 instance
+- Language : Server side
 
-# Demo Video
+## Getting Started  ( for developers )
+- now not available, it was on AWS instance.
 
+#### Install Process
+
+Install django on server, Set the webhook on KakaoTalk Chat API service. And needs python packages basic module on anaconda datascience toolkit.
+
+## Demo Video
 https://www.youtube.com/watch?v=NOR0k6LDPpw&feature=youtu.be
+
+## Image
+![](https://raw.github.com/yoonkt200/chatbot/master/almhago.png)
